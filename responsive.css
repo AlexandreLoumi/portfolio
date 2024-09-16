@@ -1,0 +1,45 @@
+/****** FOR MOBILE ******/
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        gap: 30px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero_left {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .column {
+        padding: 10px 0;
+    }
+
+    .hero_right img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .personal-info {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .glimpse {
+        margin-top: 4vw !important;
+    }
+    
+}
+
+
+
+

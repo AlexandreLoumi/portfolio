@@ -1,0 +1,193 @@
+
+/****** FONTS ******/
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+
+
+/****** HEADER ******/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nanum Gothic Coding';
+    font-weight: bold;
+    font-size: clamp(0.75rem, 0.2616rem + 1.6279vw, 2.5rem);
+    height: 60px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+#logo {
+    margin-left: 5%;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+#logo a:hover {
+    color: var(--complementary-color-one);
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+    margin-right: 5%;
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+nav a:hover {
+    color: var(--complementary-color-one);
+}
+
+
+/****** HERO SECTION ******/
+
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.column {
+    padding: 20px;
+}
+
+.hero_left {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.hero_left h2 {
+    font-family: 'Martian Mono';
+    font-weight: bold;
+    font-size: clamp(2.125rem, 1.6715rem + 1.5116vw, 3.75rem);
+    color: var(--text-color);
+}
+
+.hero_left p {
+    font-family: 'Martian Mono';
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.561rem + 1.0465vw, 2rem);
+    color: var(--text-color);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.personal-info {
+    font-size: clamp(10px, 12px, 16px) !important;
+    line-height: 30px;
+    margin-right: 8vw;
+}
+
+.glimpse {
+    margin-top: 5% !important;
+    font-size: clamp(10px, 2vw, 14px) !important;
+    width: 80%;
+    font-weight: bold !important;
+}
+
+.scroll-below p {
+    font-size: clamp(0.75rem, 0.75rem + 0vw, 0.75rem) !important;
+}
+
+.bxs-mouse {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.bx-chevrons-down {
+    font-size: 18px;
+}
+
+.job {
+    background: var(--secondary-color);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+
+.hero_right img {
+    width: 80%;
+    margin-top: 30px;
+    height: auto;
+    border-radius: 19% 81% 38% 62% / 66% 44% 56% 34%;
+}
+
+
+/****** PROJECT CONTAINER ******/
+
+.project {
+    margin-top: 10vh;
+}
+
+.project h2 {
+    font-family: 'Martian Mono';
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--text-color);
+    background: var(--complementary-color-one);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.project p {
+    font-family: 'Nanum Gothic Coding';
+    margin-top: 10px;
+}
+
+.doog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-top: 3px solid var(--text-color);
+    border-bottom: 3px solid var(--text-color);
+    padding: 15px 0 15px 0;
+}
+
+.doog-image img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    opacity: .9;
+}
+
+.message-generator {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-top: 3px solid var(--text-color);
+    border-bottom: 3px solid var(--text-color);
+    padding: 15px 0 15px 0;
+}
+
+.message-generator-image img {
+    display: block;
+    margin: auto;
+    opacity: .9;
+    width: 50%;
+}
+
+.second-project {
+    margin-bottom: 10vh;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid var(--text-color);
+    font-family: 'Nanum Gothic Coding';
+    font-weight: bold;
+    line-height: 5vh;
+}
+
+footer a:hover {
+    color: var(--complementary-color-one);
+}
